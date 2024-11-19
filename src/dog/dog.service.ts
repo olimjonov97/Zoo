@@ -11,4 +11,7 @@ export class DogService {
   greet(): string {
     return 'How Are you ';
   }
+  modifyDetail():string{
+    return 'Modified'
+  }
 }
