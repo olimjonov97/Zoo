@@ -4,6 +4,7 @@ import { DogService } from './dog.service';
 @Controller('dog')
 export class DogController {
   constructor(private readonly dogService: DogService) {}
+   
   @Get()
   sayHelloDog(): string {
     return this.dogService.sayHelloDog();
